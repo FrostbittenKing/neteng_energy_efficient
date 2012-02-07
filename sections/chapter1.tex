@@ -75,7 +75,7 @@ The same can also be applied to energy-efficient graphics cards.
 \\\\
 Beside that, it's wise to mount at least 2 fans for cooling the components efficiently: one at the back or top of the case, sucking the hot air out of the case, and a second, 
 sucking cold air in. This generates a constant stream of air, which transports the exhaust heat of the components out of the case.\\
-Following diagrams should illustrate the differences in temperature between typical fans:\\
+Following diagrams should illustrate the differences in temperature between typical cpu coolers:\\
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{./graphics/Temperatur}
@@ -86,21 +86,46 @@ A fan has an energy footprint of about 2W - different fans by different manufact
 in terms of power consumption. But in the end, the power consumption of the air cooling in a PC, is somewhere between 5(regular office PC) and 12W(gaming PC). Which is somewhat considerable, 
 but doesn't make much difference to the overall power consumption. 
 
-
-\begin{compactitem}
-\item advantage / disadvantages
-\item components to be cooled
-\item  types of fans
-\item  cheap/expensive fans
-\item  airflow/ Computercases 
-\item  temperatures /diagrams, powerconsumption
-\end{compactitem}
-
-
 \subsection{Water Cooling}
 
+Another method to cool PCs, which has some advantages compared to air cooling in terms of effectiveness is water cooling.
+Since water has a thermal conductivity of 0.58 (remember, air has a thermal conductivity of 0.034), it's an about 10 times better thermal conductor than air.
+Thus, water cooling does a much better job in transporting the exhaust heat away from the components. In the last few years, water cooling has been becoming more
+common, since it's easer to install water cooling kits than it was in the past. \\
+What's also remarkably, is the fact that several components can be cooled with the same system and the possibility of replacing the original GPU cooler
+with a customized waterblock to reduce the loudness of the system. Here is a list of a few advantages and disadvantages\\
 \begin{compactitem}
-\item  advantages/disadvantages 
+\item more silent
+\item effective
+\item less influence by the ambient temperature \\
+\end{compactitem}
+Disadvantages:
+\begin{compactitem}
+\item danger of coolant leak
+\item components are more expensive
+\item more work to install than conventional air cooling
+\item more skill involved \\
+\end{compactitem}
+
+\subsubsection{Components involved in water cooling}
+
+To build a water-cooled PC, at least the following components are required: radiator, waterpump, waterblock, watertank and tubes. 
+One of the most important role in water cooling plays the water block, depending on the quality, the temperature may vary about 6 to 8$^\circ$C.
+This is also reflected more or less by the price of a waterblock. They start at about \EUR{30} and can go up to \EUR{80} or \EUR{100} per block.\\
+Obviously, the expensiveness of the components make water-cooling not always a viable choice for everyone. Water cooling usually makes only sense on heavily overclocked PCs, or for people who want their PC to be as silent as possible.\\
+See figure \ref{fig:waterblocks_diff} below for a comparison of different waterblocks.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.9\textwidth]{./graphics/waterblock_differences}
+  \caption{temperature differences between waterblocks}
+  \label{fig:waterblocks_diff}
+\end{figure}
+The next component, which will need the most power of a water-cooling system is the waterpump. Typical small waterpumps used for PCs will consume between 8 and 13W.
+Including a 120mm fan, mounted on the radiator will consume (as mentioned above) between 2 and 4W. Depending on how much heat the PC generates, the radiator
+needs more than 1 fan. Assuming 4 120mm fans are needed, the overall consumption of the cooling solution will amount to somewhere between 24 and 29W, which
+is already relatively considerable. From this, it can be savely assumed that water-cooling only pays off, if conventional air-cooling measures don't suffice.
+\begin{compactitem} 
 \item involved components: radiator, waterpump, waterblock, tank 
 \item temperatures/ diagrams, powerconsumption 
 \item comparison of temp/Watts between air and watercooling
